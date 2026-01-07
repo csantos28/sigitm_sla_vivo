@@ -508,7 +508,7 @@ class SIGITMAutomation:
             self.logger.info("✅ Input localizado e em foco.")
            
             # 📝 Preenche a nova data
-            new_date = (datetime.today() - timedelta(days=3)).strftime("%d/%m/%y")
+            new_date = (datetime.today() - timedelta(days=1)).strftime("%d/%m/%y")
             new_date = f"{new_date} 00:00"
 
             self.logger.info(f"🔄 Alterando data: {data_ant} → {new_date}")
