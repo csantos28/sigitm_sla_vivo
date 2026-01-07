@@ -122,7 +122,7 @@ class SIGITMAutomation:
             check_elements: Lista de seletores para verificar (opcional)
         """        
 
-        self.logger.info(f"🌐 Aguardando carregamento: {step_name}")
+        self.logger.info(f"⌛ Aguardando carregamento: {step_name}")
         start_time = time.time()
 
         try:
